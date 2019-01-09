@@ -24,8 +24,8 @@ names = ["Beck", "Glenn", "Becker", "Carl", "Beckett", "Samuel", "Beddoes", "Mic
          "Blalock", "Jolene", "Blanc", "Mel", "Blanc", "Raymond", "Blanchet", "Cate", "Blix", "Hans", "Blood",
          "Rebecca"]
 sizes = ['7', '7.5', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12', '13']
-catchall = "@fayeezus.me", #change this to your catchall domain
-proxy = ["104.153.47.121:1068", "104.153.47.81:5484", "104.153.47.74:4585"]  # change this
+catchall = "@deeznuts.io", #change this to your catchall domain
+proxy = ["0.0.0.1:1000", "0.0.0.2:2222", "3.3.3.3:3333"]  # change this
 
 proxies = {
     "https": random.choice(proxy)
